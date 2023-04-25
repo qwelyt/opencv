@@ -477,7 +477,7 @@ jobs:
           name: ${{ matrix.os }}
           path: |
             opencv-${{ env.OPENCV_VERSION }}/build/bin/opencv-${{ env.OPENCV_VERSION_SHORT }}.jar
-            opencv-${{ env.OPENCV_VERSION }}/build/bin/opencv_java${{ env.OPENCV_VERSION_SHORT }}.dll
+            opencv-${{ env.OPENCV_VERSION }}/build/bin/Release/opencv_java${{ env.OPENCV_VERSION_SHORT }}.dll
 
 
 
